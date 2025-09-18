@@ -7,6 +7,7 @@ import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import ImageFAQ from '@/components/sections/layouts/faq/ImageFAQ';
 import FooterBase from '@/components/footer/FooterBase';
+import { PiggyBank, BarChart, Users } from 'lucide-react';
 
 export default function Home() {
   return (
