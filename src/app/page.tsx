@@ -48,9 +48,9 @@ export default function Home() {
           title="Tokenomics Overview"
           description="Our tokenomics ensure sustainable growth and community benefits."
           kpiItems={[
-            { value: '1M', description: 'Total Supply', longDescription: 'The total amount of MemeBurst coins available.', icon: 'PiggyBank' },
-            { value: '500K', description: 'Circulating Supply', longDescription: 'The amount currently in circulation.', icon: 'BarChart' },
-            { value: '100K', description: 'Community Fund', longDescription: 'Funds allocated to community initiatives.', icon: 'Users' },
+            { value: '1M', description: 'Total Supply', longDescription: 'The total amount of MemeBurst coins available.', icon: PiggyBank },
+            { value: '500K', description: 'Circulating Supply', longDescription: 'The amount currently in circulation.', icon: BarChart },
+            { value: '100K', description: 'Community Fund', longDescription: 'Funds allocated to community initiatives.', icon: Users },
           ]} />
       </div>
 
