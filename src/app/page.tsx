@@ -13,7 +13,8 @@ export default function Home() {
     <SiteThemeProvider theme={{ styleVariant: 'funAndTrendy', colorTemplate: 1, textAnimation: 'slide' }}>
       <div id="nav" data-section="nav">
         <NavbarStyleApple
-          brand="MemeBurst"
+          logoSrc="/images/logo.svg"
+          logoAlt="MemeBurst Logo"
           navItems={[
             { name: 'Hero', id: 'hero' },
             { name: 'About', id: 'about' },
@@ -67,8 +68,7 @@ export default function Home() {
           logoWidth={120}
           logoHeight={40}
           columns={[
-            { title: 'Get Involved', items: [{ label: 'Join our Discord', onClick: () => alert('Discord link clicked')}]
-            },
+            { title: 'Get Involved', items: [{ label: 'Join our Discord', onClick: () => alert('Discord link clicked')}] },
           ]}
           copyrightText="© 2023 MemeBurst. All rights reserved."
           onPrivacyClick={() => alert('Privacy Policy clicked')} />
